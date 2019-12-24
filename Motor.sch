@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Motor-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Module:Arduino_Nano_v3.x A1
+L Motor-rescue:Arduino_Nano_v3.x-MCU_Module A1
 U 1 1 5DE324BB
 P 5850 3700
 F 0 "A1" H 5850 2614 50  0000 C CNN
@@ -930,4 +929,6 @@ Text Label 2950 5500 0    50   ~ 0
 H_RPWM
 Text Label 4150 3900 0    50   ~ 0
 A0_DC
+Text Notes 7000 6700 0    50   ~ 0
+Author: Timo Birnschein (timo.birnschein@googlemail.com)\nCopyright by Timo Birnschein 2019
 $EndSCHEMATC
